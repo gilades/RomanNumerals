@@ -9,11 +9,11 @@ public class RomanNumeralUnitTests {
 
 	@Test
 	public void testThat1ReturnsI() {
-		assertEquals("I", number.toRoman(1));
+		assertEquals("II", number.toRoman(3));
 		assertEquals("II", number.toRoman(2));
 		assertEquals("M", number.toRoman(1000));
 		assertEquals("XLIX",number.toRoman(49));
-		assertEquals("MM",number.toRoman(2000));
+		assertEquals("MMM",number.toRoman(3000));
 	}
 	
 
